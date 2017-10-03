@@ -2,13 +2,13 @@
 Linux Infrastructure Services 
 
 Concept project showing the benefits of collecting sysstat 
-data as a mean to monitor and diagnose a UNIX estate.
+data as a means to monitor and analyse Unix estates.
 
-ioserver
+# ioserver
 Server side: Receives SAR updates from ioclient
              Processes update into InfluxDB
 
-ioclient
+# ioclient
 Client side: inotify client sends sar updates to ioserver
 
 
